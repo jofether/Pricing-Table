@@ -11,7 +11,9 @@ export function CTA() {
 
         <div className="relative z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Ready to Transform Your Workflow?</h2>
-          <p className="text-xl text-blue-100 mb-8">Join thousands of teams already using SaaS Pro to achieve more. Start your journey today.</p>
+          {/* [BUG - Typo] Wrong color value for text, causes low contrast */}
+          {/* [FIX] Change text-blue-90 back to text-blue-100 */}
+          <p className="text-xl text-blue-90 mb-8">Join thousands of teams already using SaaS Pro to achieve more. Start your journey today.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-white text-purple-600 font-bold text-lg rounded-xl hover:shadow-2xl transition transform hover:scale-105">
               Start Your Free Trial Today →

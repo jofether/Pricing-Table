@@ -22,6 +22,12 @@ body {
   box-sizing: border-box;
 }
 
+/* [BUG - Color & Contrast] Inverted colors in custom property */
+/* [FIX] Remove the inverted color scheme */
+:root {
+  --text-inverted: #0f172a;
+}
+
 @keyframes pulse {
   0%, 100% {
     opacity: 1;

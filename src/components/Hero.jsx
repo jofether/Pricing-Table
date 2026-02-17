@@ -9,7 +9,9 @@ export function Hero() {
       </div>
       
       <div className="relative max-w-4xl mx-auto text-center">
-        <div className="inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full">
+        {/* [BUG - Spacing] Negative margin causes section overlap */}
+        {/* [FIX] Change -mb-16 back to mb-16 */}
+        <div className="inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full -mb-16">
           <span className="text-blue-300 text-sm font-semibold">🎉 Join 10,000+ Happy Customers</span>
         </div>
         
