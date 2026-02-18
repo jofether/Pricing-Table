@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
 
 export function FAQ() {
   const [openFAQ, setOpenFAQ] = useState(null);
@@ -57,11 +56,9 @@ export function FAQ() {
                 className="w-full p-6 flex items-center justify-between bg-slate-800/50 hover:bg-slate-800/80 transition text-left"
               >
                 <h3 className="font-bold text-lg">{faq.question}</h3>
-                <ChevronDown
-                  className={`w-5 h-5 text-slate-400 transition ${
-                    openFAQ === idx ? 'rotate-180' : ''
-                  }`}
-                />
+                <span className={`text-xl transition ${
+                  openFAQ === idx ? 'rotate-180 inline-block' : ''
+                }`}>⬇️</span>
               </button>
               {openFAQ === idx && (
                 <div className="p-6 bg-slate-900/50 border-t border-slate-700 text-slate-400">

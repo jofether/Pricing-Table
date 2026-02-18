@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Check } from 'lucide-react';
 
 export function PricingSection() {
   const [billingCycle, setBillingCycle] = useState('monthly');
@@ -133,7 +132,7 @@ export function PricingSection() {
               <ul className="space-y-4">
                 {plan.features.map((feature, fidx) => (
                   <li key={fidx} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
+                    <span className="text-lg text-green-400 flex-shrink-0 mt-0.5">✅</span>
                     <span className={plan.highlighted ? 'text-blue-50' : 'text-slate-300'}>{feature}</span>
                   </li>
                 ))}
