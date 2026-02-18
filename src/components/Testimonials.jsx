@@ -1,5 +1,4 @@
 import React from 'react';
-import { Star } from 'lucide-react';
 
 export function Testimonials() {
   const testimonials = [
@@ -49,7 +48,7 @@ export function Testimonials() {
           <div key={idx} className="p-8 rounded-2xl bg-slate-800/50 border border-slate-700 hover:border-slate-600 transition hover:shadow-xl">
             <div className="flex gap-1 mb-4">
               {[...Array(testimonial.rating)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                <span key={i} className="text-lg">⭐</span>
               ))}
             </div>
             <p className="text-slate-300 mb-6 leading-relaxed text-lg">"{testimonial.text}"</p>

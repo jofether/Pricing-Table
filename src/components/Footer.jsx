@@ -1,5 +1,4 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -17,10 +16,10 @@ export function Footer() {
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">The future of project management. Building tools for amazing teams.</p>
             <div className="flex gap-4 mt-4">
-              <a href="#" className="text-slate-400 hover:text-white transition"><Github size={18} /></a>
-              <a href="#" className="text-slate-400 hover:text-white transition"><Linkedin size={18} /></a>
-              <a href="#" className="text-slate-400 hover:text-white transition"><Twitter size={18} /></a>
-              <a href="#" className="text-slate-400 hover:text-white transition"><Mail size={18} /></a>
+              <a href="#" className="text-slate-400 hover:text-white transition text-xl">💻</a>
+              <a href="#" className="text-slate-400 hover:text-white transition text-xl">💼</a>
+              <a href="#" className="text-slate-400 hover:text-white transition text-xl">🐦</a>
+              <a href="#" className="text-slate-400 hover:text-white transition text-xl">✉️</a>
             </div>
           </div>
           
