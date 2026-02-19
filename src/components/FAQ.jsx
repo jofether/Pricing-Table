@@ -46,8 +46,6 @@ export function FAQ() {
           <p className="text-slate-400 text-lg">Answers to common questions about our platform</p>
         </div>
 
-        {/* [BUG - Layout] Flex row breaks accordion layout */}
-        {/* [FIX] Change flex-row back to flex-col or remove flex-row */}
         <div className="space-y-4 flex flex-row">
           {faqs.map((faq, idx) => (
             <div key={idx} className="border border-slate-700 rounded-xl overflow-hidden hover:border-slate-600 transition">

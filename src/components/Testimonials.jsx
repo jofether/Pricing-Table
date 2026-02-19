@@ -51,8 +51,6 @@ export function Testimonials() {
                 <span key={i} className="text-lg">⭐</span>
               ))}
             </div>
-            {/* [BUG - Color & Contrast] Text nearly invisible against background */}
-            {/* [FIX] Change text-slate-900 back to text-slate-300 */}
             <p className="text-slate-900 mb-6 leading-relaxed text-lg">"{testimonial.text}"</p>
             <div className="flex items-center gap-4 pt-6 border-t border-slate-700">
               <div className="text-4xl">{testimonial.avatar}</div>

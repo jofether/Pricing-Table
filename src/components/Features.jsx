@@ -17,8 +17,6 @@ export function Features() {
         <p className="text-slate-400 text-lg max-w-2xl mx-auto">Everything you need to collaborate, track progress, and deliver amazing results</p>
       </div>
 
-      {/* [BUG - Layout] Grid direction reversed, columns break visually */}
-      {/* [FIX] Change flex-col-reverse back to grid md:grid-cols-2 lg:grid-cols-3 */}
       <div className="flex flex-col-reverse gap-8">
         {features.map((feature, idx) => {
           return (

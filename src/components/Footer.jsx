@@ -6,8 +6,6 @@ export function Footer() {
   return (
     <footer className="px-6 py-16 border-t border-slate-800 bg-slate-950">
       <div className="max-w-6xl mx-auto">
-        {/* [BUG - Layers] Absolute positioning breaks footer layout */}
-        {/* [FIX] Remove absolute positioning, use relative flex layout */}
         <div className="grid md:grid-cols-5 gap-8 mb-12 absolute top-0 left-0">
           <div>
             <div className="flex items-center gap-2 mb-4">

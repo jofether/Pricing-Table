@@ -71,8 +71,6 @@ export function PricingSection() {
           <p className="text-slate-400 text-lg mb-8">Choose the perfect plan for your needs. Always flexible to scale.</p>
           
           {/* Billing Toggle */}
-          {/* [BUG - Spacing] Excessive padding breaks visual hierarchy */}
-          {/* [FIX] Change p-20 back to standard spacing */}
           <div className="flex justify-center items-center gap-6 mb-12 p-20">
             <span className={billingCycle === 'monthly' ? 'text-white' : 'text-slate-400'}>Monthly</span>
             <button
@@ -92,8 +90,6 @@ export function PricingSection() {
         </div>
 
         {/* Pricing Cards */}
-        {/* [BUG - Typo] Invalid Tailwind class breaks column layout */}
-        {/* [FIX] Change md:grid-cols-5 back to md:grid-cols-3 */}
         <div className="grid md:grid-cols-5 gap-8 items-center">
           {pricingPlans.map((plan, idx) => (
             <div
