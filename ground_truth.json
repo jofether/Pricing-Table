@@ -1,0 +1,155 @@
+{
+  "repository": "Pricing Table",
+  "bugs": [
+    {
+      "bug_category": "Color",
+      "bug_type": "text-blue-90",
+      "file_modified": "src/components/CTA.jsx",
+      "line_number": 14,
+      "clean_code": "<p className=\"text-xl text-blue-100 mb-8\">Join thousands of teams already using SaaS Pro to achieve more. Start your journey today.</p>",
+      "buggy_code": "<p className=\"text-xl text-blue-90 mb-8\">Join thousands of teams already using SaaS Pro to achieve more. Start your journey today.</p>",
+      "css_selector": "p",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "flexbox",
+      "file_modified": "src/components/FAQ.jsx",
+      "line_number": 49,
+      "clean_code": "<div className=\"space-y-4\">",
+      "buggy_code": "<div className=\"space-y-4 flex flex-row\">",
+      "css_selector": ".space-y-4",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "flexbox",
+      "file_modified": "src/components/Features.jsx",
+      "line_number": 20,
+      "clean_code": "<div className=\"grid md:grid-cols-2 lg:grid-cols-3 gap-8\">",
+      "buggy_code": "<div className=\"flex flex-col-reverse gap-8\">",
+      "css_selector": ".gap-8",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "position",
+      "file_modified": "src/components/Footer.jsx",
+      "line_number": 9,
+      "clean_code": "<div className=\"grid md:grid-cols-5 gap-8 mb-12\">",
+      "buggy_code": "<div className=\"grid md:grid-cols-5 gap-8 mb-12 absolute top-0 left-0\">",
+      "css_selector": ".absolute",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "margin-bottom",
+      "file_modified": "src/components/Hero.jsx",
+      "line_number": 12,
+      "clean_code": "<div className=\"inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full\">",
+      "buggy_code": "<div className=\"inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full -mb-16\">",
+      "css_selector": ".rounded-full",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "z-index",
+      "file_modified": "src/components/Navigation.jsx",
+      "line_number": 5,
+      "clean_code": "<nav className=\"sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800\">",
+      "buggy_code": "<nav className=\"sticky top-0 z-5 bg-slate-950/80 backdrop-blur-md border-b border-slate-800\">",
+      "css_selector": "nav",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding",
+      "file_modified": "src/components/PricingSection.jsx",
+      "line_number": 74,
+      "clean_code": "<div className=\"flex justify-center items-center gap-6 mb-12\">",
+      "buggy_code": "<div className=\"flex justify-center items-center gap-6 mb-12 p-20\">",
+      "css_selector": ".flex",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "grid-template-columns",
+      "file_modified": "src/components/PricingSection.jsx",
+      "line_number": 93,
+      "clean_code": "<div className=\"grid md:grid-cols-3 gap-8 items-center\">",
+      "buggy_code": "<div className=\"grid md:grid-cols-5 gap-8 items-center\">",
+      "css_selector": ".grid",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+  {
+      "bug_category": "Color",
+      "bug_type": "text-slate-900",
+      "file_modified": "src/components/Testimonials.jsx",
+      "line_number": 54,
+      "clean_code": "<p className=\"text-slate-300 mb-6 leading-relaxed text-lg\">\"{testimonial.text}\"</p>",
+      "buggy_code": "<p className=\"text-slate-900 mb-6 leading-relaxed text-lg\">\"{testimonial.text}\"</p>",
+      "css_selector": ".text-slate-300",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "css-variable",
+      "file_modified": "src/index.css",
+      "line_number": 26,
+      "clean_code": "",
+      "buggy_code": "  --text-inverted: #0f172a;",
+      "css_selector": ":root",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ]
+}
