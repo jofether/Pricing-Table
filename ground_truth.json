@@ -2,6 +2,7 @@
   "repository": "Pricing Table",
   "bugs": [
     {
+      "comment": "Bug #1 - text-blue-90",
       "bug_category": "Color",
       "bug_type": "text-blue-90",
       "file_modified": "src/components/CTA.jsx",
@@ -10,13 +11,14 @@
       "buggy_code": "<p className=\"text-xl text-blue-90 mb-8\">Join thousands of teams already using SaaS Pro to achieve more. Start your journey today.</p>",
       "css_selector": "p",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 264,
+        "y": 5502,
+        "width": 752,
+        "height": 56
       }
     },
     {
+      "comment": "Bug #2 - flexbox",
       "bug_category": "Layout",
       "bug_type": "flexbox",
       "file_modified": "src/components/FAQ.jsx",
@@ -32,6 +34,7 @@
       }
     },
     {
+      "comment": "Bug #3 - flexbox",
       "bug_category": "Layout",
       "bug_type": "flexbox",
       "file_modified": "src/components/Features.jsx",
@@ -47,6 +50,7 @@
       }
     },
     {
+      "comment": "Bug #4 - position",
       "bug_category": "Layers",
       "bug_type": "position",
       "file_modified": "src/components/Footer.jsx",
@@ -62,6 +66,7 @@
       }
     },
     {
+      "comment": "Bug #5 - margin-bottom",
       "bug_category": "Spacing",
       "bug_type": "margin-bottom",
       "file_modified": "src/components/Hero.jsx",
@@ -70,13 +75,14 @@
       "buggy_code": "<div className=\"inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full -mb-16\">",
       "css_selector": ".rounded-full",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 514,
+        "y": 15,
+        "width": 253,
+        "height": 42
       }
     },
     {
+      "comment": "Bug #6 - z-index",
       "bug_category": "Layers",
       "bug_type": "z-index",
       "file_modified": "src/components/Navigation.jsx",
@@ -92,6 +98,7 @@
       }
     },
     {
+      "comment": "Bug #7 - padding",
       "bug_category": "Spacing",
       "bug_type": "padding",
       "file_modified": "src/components/PricingSection.jsx",
@@ -100,13 +107,14 @@
       "buggy_code": "<div className=\"flex justify-center items-center gap-6 mb-12 p-20\">",
       "css_selector": ".flex",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 64,
+        "y": 2414,
+        "width": 1152,
+        "height": 192
       }
     },
     {
+      "comment": "Bug #8 - grid-template-columns",
       "bug_category": "Layout",
       "bug_type": "grid-template-columns",
       "file_modified": "src/components/PricingSection.jsx",
@@ -122,6 +130,7 @@
       }
     },
   {
+      "comment": "Bug #9 - text-slate-900",
       "bug_category": "Color",
       "bug_type": "text-slate-900",
       "file_modified": "src/components/Testimonials.jsx",
@@ -130,13 +139,14 @@
       "buggy_code": "<p className=\"text-slate-900 mb-6 leading-relaxed text-lg\">\"{testimonial.text}\"</p>",
       "css_selector": ".text-slate-300",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 121,
+        "y": 4081,
+        "width": 470,
+        "height": 88
       }
     },
     {
+      "comment": "Bug #10 - css-variable",
       "bug_category": "Color",
       "bug_type": "css-variable",
       "file_modified": "src/index.css",
