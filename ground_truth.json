@@ -27,10 +27,10 @@
       "buggy_code": "<div className=\"space-y-4 flex flex-row\">",
       "css_selector": ".space-y-4",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 256,
+        "y": 5086,
+        "width": 768,
+        "height": 234
       }
     },
     {
@@ -43,10 +43,10 @@
       "buggy_code": "<div className=\"flex flex-col-reverse gap-8\">",
       "css_selector": ".gap-8",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 88,
+        "y": 938,
+        "width": 1104,
+        "height": 1346
       }
     },
     {
@@ -61,8 +61,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 144
       }
     },
     {
@@ -93,8 +93,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 73
       }
     },
     {
@@ -123,10 +123,10 @@
       "buggy_code": "<div className=\"grid md:grid-cols-5 gap-8 items-center\">",
       "css_selector": ".grid",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 64,
+        "y": 2791,
+        "width": 1152,
+        "height": 1035
       }
     },
   {
