@@ -1,5 +1,9 @@
 {
   "repository": "Pricing Table",
+  "playwright_config": {
+    "viewport_height": 6000,
+    "note": "Viewport height of 6000px required for deep-page bugs (#1, #2, #7, #8, #9). Alternatively, execute scrollIntoView() before screenshot for each selector."
+  },
   "bugs": [
     {
       "comment": "Bug #1 - text-blue-90",
@@ -9,7 +13,7 @@
       "line_number": 14,
       "clean_code": "<p className=\"text-xl text-blue-100 mb-8\">Join thousands of teams already using SaaS Pro to achieve more. Start your journey today.</p>",
       "buggy_code": "<p className=\"text-xl text-blue-90 mb-8\">Join thousands of teams already using SaaS Pro to achieve more. Start your journey today.</p>",
-      "css_selector": "p",
+      "css_selector": "section:nth-of-type(6) p.text-xl",
       "bounding_box": {
         "x": 264,
         "y": 5502,
@@ -25,7 +29,7 @@
       "line_number": 49,
       "clean_code": "<div className=\"space-y-4\">",
       "buggy_code": "<div className=\"space-y-4 flex flex-row\">",
-      "css_selector": ".space-y-4",
+      "css_selector": "#faq div.space-y-4",
       "bounding_box": {
         "x": 256,
         "y": 5086,
@@ -41,7 +45,7 @@
       "line_number": 20,
       "clean_code": "<div className=\"grid md:grid-cols-2 lg:grid-cols-3 gap-8\">",
       "buggy_code": "<div className=\"flex flex-col-reverse gap-8\">",
-      "css_selector": ".gap-8",
+      "css_selector": "#features div[class*=\"gap-8\"]",
       "bounding_box": {
         "x": 88,
         "y": 938,
@@ -57,7 +61,7 @@
       "line_number": 9,
       "clean_code": "<div className=\"grid md:grid-cols-5 gap-8 mb-12\">",
       "buggy_code": "<div className=\"grid md:grid-cols-5 gap-8 mb-12 absolute top-0 left-0\">",
-      "css_selector": ".absolute",
+      "css_selector": "footer > div.grid",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -73,7 +77,7 @@
       "line_number": 12,
       "clean_code": "<div className=\"inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full\">",
       "buggy_code": "<div className=\"inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full -mb-16\">",
-      "css_selector": ".rounded-full",
+      "css_selector": "section:first-of-type div.inline-block.rounded-full",
       "bounding_box": {
         "x": 514,
         "y": 15,
@@ -89,7 +93,7 @@
       "line_number": 5,
       "clean_code": "<nav className=\"sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800\">",
       "buggy_code": "<nav className=\"sticky top-0 z-5 bg-slate-950/80 backdrop-blur-md border-b border-slate-800\">",
-      "css_selector": "nav",
+      "css_selector": "nav.sticky",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -105,12 +109,12 @@
       "line_number": 74,
       "clean_code": "<div className=\"flex justify-center items-center gap-6 mb-12\">",
       "buggy_code": "<div className=\"flex justify-center items-center gap-6 mb-12 p-20\">",
-      "css_selector": ".flex",
+      "css_selector": "#pricing div.flex.gap-6",
       "bounding_box": {
-        "x": 64,
-        "y": 2414,
-        "width": 1152,
-        "height": 192
+        "x": 32,
+        "y": 2370,
+        "width": 1216,
+        "height": 300
       }
     },
     {
@@ -121,7 +125,7 @@
       "line_number": 93,
       "clean_code": "<div className=\"grid md:grid-cols-3 gap-8 items-center\">",
       "buggy_code": "<div className=\"grid md:grid-cols-5 gap-8 items-center\">",
-      "css_selector": ".grid",
+      "css_selector": "#pricing div.grid.gap-8.items-center",
       "bounding_box": {
         "x": 64,
         "y": 2791,
@@ -129,7 +133,7 @@
         "height": 1035
       }
     },
-  {
+    {
       "comment": "Bug #9 - text-slate-900",
       "bug_category": "Color",
       "bug_type": "text-slate-900",
@@ -137,7 +141,7 @@
       "line_number": 54,
       "clean_code": "<p className=\"text-slate-300 mb-6 leading-relaxed text-lg\">\"{testimonial.text}\"</p>",
       "buggy_code": "<p className=\"text-slate-900 mb-6 leading-relaxed text-lg\">\"{testimonial.text}\"</p>",
-      "css_selector": ".text-slate-300",
+      "css_selector": "#testimonials p.text-lg",
       "bounding_box": {
         "x": 121,
         "y": 4081,
@@ -153,12 +157,12 @@
       "line_number": 26,
       "clean_code": "",
       "buggy_code": "  --text-inverted: #0f172a;",
-      "css_selector": ":root",
+      "css_selector": "html",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 540,
+        "y": 400,
+        "width": 200,
+        "height": 50
       }
     }
   ]
