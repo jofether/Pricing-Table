@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "name": "bug-1-RemoveFooterOverlay",
+      "selector": "footer > div.grid",
+      "action_type": "remove"
+    },
+    {
+      "name": "bug-2-RemoveFooterOverlay",
+      "selector": "footer > div.grid",
+      "action_type": "remove"
+    },
+    {
+      "name": "bug-3-RemoveFooterOverlay",
+      "selector": "footer > div.grid",
+      "action_type": "remove"
+    },
+    {
+      "name": "bug-5-RemoveFooterOverlay",
+      "selector": "footer > div.grid",
+      "action_type": "remove"
+    },
+    {
+      "name": "bug-6-RemoveFooterOverlay",
+      "selector": "footer > div.grid",
+      "action_type": "remove"
+    },
+    {
+      "name": "bug-7-RemoveFooterOverlay",
+      "selector": "footer > div.grid",
+      "action_type": "remove"
+    },
+    {
+      "name": "bug-8-RemoveFooterOverlay",
+      "selector": "footer > div.grid",
+      "action_type": "remove"
+    },
+    {
+      "name": "bug-9-RemoveFooterOverlay",
+      "selector": "footer > div.grid",
+      "action_type": "remove"
+    }
+  ]
+}
