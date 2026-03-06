@@ -65,7 +65,7 @@
       "line_number": 9,
       "neg_code": "<div className=\"grid md:grid-cols-5 gap-8 mb-12\">",
       "pos_code": "<div className=\"grid md:grid-cols-5 gap-8 mb-12 absolute top-0 left-0\">",
-      "css_selector": "footer > div.grid",
+      "css_selector": "footer",
       "bounding_box": {
         "x": 0,
         "y": 0,
