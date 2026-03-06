@@ -165,8 +165,8 @@
       "bug_type": "css-variable",
       "file_modified": "src/index.css",
       "line_number": 26,
-      "neg_code": "",
-      "pos_code": "  --text-inverted: #0f172a;",
+      "neg_code": "* { box-sizing: border-box; } :root { --text-inverted: #0f172a; }",
+      "pos_code": "* { box-sizing: border-box; }",
       "css_selector": "html",
       "bounding_box": {
         "x": 540,
